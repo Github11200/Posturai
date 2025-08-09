@@ -1,5 +1,13 @@
 <img width="1280" height="720" alt="Posturai Github" src="https://github.com/user-attachments/assets/b39aa511-6279-48f1-804a-47c03163c663" />
 
+## Features
+- Ability to detect a good or bad posture
+- Reminders for taking breaks
+- Session statistics at the end of each session
+<img width="345" height="103" alt="Reminders for taking breaks toast" src="https://github.com/user-attachments/assets/631824b4-75e8-4cd0-b47f-05b968e04377" />
+<img width="717" height="223" alt="Session statistics" src="https://github.com/user-attachments/assets/e8822dc4-3688-4ad7-8a92-af14d3faa8b6" />
+<img width="685" height="530" alt="Posture detection, the image has red dots so it is showing bad posture" src="https://github.com/user-attachments/assets/5534aff5-b1a7-4221-99b3-ad147c6c36bb" />
+
 ## Setup
 1) Download the GitHub repository and extract the folder.
 2) Make sure you have Conda installed.
@@ -10,6 +18,7 @@
 10) This should then boot up the app on localhost and you should be able to access it.
 
 ## Notes
+- You will find that the `data` folder is empty and this is just because we wanted to maintain privacy of the several images that we had taken of oursevles during the course of the project.
 - **From our testing the project only builds on Windows and not Mac due to several Windows specific packages.**
 - If the project isn't building then it may be possible to follow the steps below to try and run it:
   1) Create a new environment with `conda create -n app` and then run `conda activate app`.
